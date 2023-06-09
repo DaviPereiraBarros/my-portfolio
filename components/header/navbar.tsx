@@ -26,9 +26,9 @@ export default function header() {
 
             <Link href={"/"} className='text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...'> HOME </Link>
 
-            <Link href={"projects"} className='text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...'>PROJECTS</Link>
+            <Link href={"#sectionProjects"} className='text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...'>PROJECTS</Link>
 
-            <Link href={"contact"} className='text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...'>CONTACT</Link>
+            <Link href={"#contact"} className='text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...'>CONTACT</Link>
 
             <Link href={"about"} className='text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...'>ABOUT</Link>
 

@@ -1,7 +1,10 @@
 import './globals.css';
-import { Inter } from 'next/font/google';
+import { Exo } from 'next/font/google';
+import { Changa } from 'next/font/google';
 
-const inter = Inter({ subsets: ['latin'] });
+const exo = Exo({ subsets: ['latin'] });
+const changa = Changa({ subsets: ['latin'] });
+
 
 export const metadata = {
   title: 'My Portfolio',
@@ -15,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <body className={inter.className}>{children}</body>
+      <body className={exo.className}>{children}</body>
     </html>
   );
 }

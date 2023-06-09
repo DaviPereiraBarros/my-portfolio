@@ -4,9 +4,15 @@ export const content = [
   './src/components/**/*.{js,ts,jsx,tsx,mdx}',
   './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   './components/**/*.{tsx,jsx,js}',
+  '.src/pages/**/*.{tsx,jsx,js}',
+
 ];
 export const theme = {
   extend: {
+    gradientColorStops: (theme) => ({
+      'purple': '#6c5ce7',
+      'pink': '#fd79a8',
+    }),
   },
 
   theme: {
@@ -20,4 +26,5 @@ export const theme = {
     }
   }
 };
+
 export const plugins = [];
