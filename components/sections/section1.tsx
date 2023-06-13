@@ -1,8 +1,7 @@
 import React from "react";
-import Link from 'next/link'
 import Image from 'next/image';
 import Logo from '../../public/assets/AvatarMaker.svg'
-import {FaArrowRight} from 'react-icons/fa'
+import ButtonCurriculo from "./buttonCurriculo";
 
 export default function section1()
 {
@@ -19,12 +18,10 @@ export default function section1()
      <div className='py-6'>
         <p className='text-white text-justify text-xl w-[60%]'>
         Meu interesse pela área começou em 2020 quando fiz meu técnico em Programação de Jogos Digitais utilizando a engine Unity3D e a linguagem C#, assim a paixão por jogos despertou. 
-        Além dos jogos, tenho focado meus estudos para o desenvolvimento web (React, JS, Next e outros). Atualmente estou cursando o 1º período da faculdade de Engenharia de Computação.
+        Além dos jogos, tenho focado meus estudos para o desenvolvimento web (React, JS, Next e outros). Atualmente estou cursando Engenharia de Computação.
         </p>
       </div>
-      <Link className='w-2' href={''} download>
-        <button className='p-[10px] flex justify-around font-bold bg-white rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-emerald-300'>RESUME<FaArrowRight className='m-1'/></button>
-      </Link>
+      <ButtonCurriculo/>
 
      </div>
 

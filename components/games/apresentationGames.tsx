@@ -41,7 +41,7 @@ export default function Games({ title, description, genero, plataforma, linkGitH
     <p className="text-white text-2xl mt-12"><span className="font-semibold text-emerald-300">Plataforma: </span>{plataforma}</p>
     <div className="border-t mt-10 bg-emerald-500"></div>
     <p className="text-white text-2xl mt-10 hover:text-blue-500"><Link href={linkGitHub}>{linkGitHub}</Link></p>
-    <p className="text-white text-2xl mt-10 hover:text-blue-500">{Messege}</p>
+    <p className="text-white text-2xl mt-10">{Messege}</p>
     </div>
     </div>
      
