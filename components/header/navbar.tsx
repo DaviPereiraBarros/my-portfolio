@@ -30,8 +30,6 @@ export default function header() {
 
             <Link href={"#contact"} className='text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...'>CONTACT</Link>
 
-            <Link href={"about"} className='text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 ...'>ABOUT</Link>
-
             </div>
 
 

@@ -2,29 +2,14 @@ import React from "react";
 import Header from '../../components/header/navbar'
 import 'tailwindcss/tailwind.css';
 import '../../src/app/globals.css';
+import Games from "../../components/games/apresentationGames";
 
 export default function AdventureFox()
 {
     return(  
         <>
-        <Header></Header>
-   
-        <main className="bg-slate-950 min-h-screen flex items-center justify-center">
-   
-        <div className=''>
-           TÍTULO
-        </div>
-   
-        <div>
-        DESCRIÇÃO
-        </div>
-   
-        <div>
-         VÍDEO
-        </div>
-        
-        </main>
-           
+        <Header/>
+        <Games title={'Adventure Fox'} description={'Adventure Fox, foi o meu primeiro projeto desenvolvido do gênero plataforma, em que foi inspirado no clássico Mário World. Ganhei bastante experiência em jogos 2D e principalmente na linguagem C#.'} genero={'Plataforma'} plataforma='Desktop' linkGitHub='' idVideo={"gK0JdPG0RJU"} Messege={""}/>
        </>
     )
 }

@@ -17,7 +17,7 @@ export default function ItemContact({IconFa, LinkContact, LinkEmail}:itemContact
             </div>
             <div className="text-white">
                 <Link href={LinkContact}>{LinkContact}</Link>
-                <Link href={LinkEmail}>{LinkEmail}</Link>
+                <a href="mailto:davibarrospp@gmail.com">{LinkEmail}</a>
             </div>
         </div>
     )

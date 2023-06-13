@@ -22,8 +22,8 @@ export default function section1()
         Além dos jogos, tenho focado meus estudos para o desenvolvimento web (React, JS, Next e outros). Atualmente estou cursando o 1º período da faculdade de Engenharia de Computação.
         </p>
       </div>
-      <Link className='w-2' href={"about"}>
-        <button className='p-[10px] flex justify-around font-bold bg-white rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 '>ABOUT <FaArrowRight className='m-1'/></button>
+      <Link className='w-2' href={''} download>
+        <button className='p-[10px] flex justify-around font-bold bg-white rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 hover:bg-emerald-300'>RESUME<FaArrowRight className='m-1'/></button>
       </Link>
 
      </div>

@@ -7,6 +7,7 @@ import Game2 from '../../public/assets/Game2.gif'
 import Game3 from '../../public/assets/Game3.png'
 import Game4 from '../../public/assets/Game4.png'
 import Game5 from '../../public/assets/Game5.png'
+import Game6 from '../../public/assets/Game6.png'
 import Contact from '../../components/contact/contact'
 import Footer from '../../components/footer/footer';
 
@@ -33,7 +34,7 @@ export default function Home() {
      <Card title={'World War C'} description={'O jogo retrata o cenário da pandemia com intuito educacional sobre a vacinação.'} image={Game3} link={'/worldwarc'}/>
      <Card title={'Lost World'} description={'Clássico RPG 2D para derrotar inimigos, adicionar novas armas e desvendar lugares.'} image={Game4} link={'/lostworld'}/>
      <Card title={'Speed In Heights'} description={'Desafie a velocidade...Sinta a adrenalina pelas pistas'} image={Game5} link={'/speedinheight'}/>
-     <Card title={'Middle Of War'} description={'Torna-se um general nessa aventura, conquiste, lidere e destrua planetas!'} image={Game3} link={'/middleofwar'}/>
+     <Card title={'Middle Of War'} description={'A sobreviência é o mais importante nesse mundo dominado por mortos...'} image={Game6} link={'/middleofwar'}/>
      </section>
 
      <div id='contact' className='mt-6'>
