@@ -18,7 +18,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="pt-br">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <body className={exo.className}>{children}</body>
     </html>
   );
