@@ -17,7 +17,7 @@ export default function Card({ title, description, image, link}: CardPropos){
     <div className="px-6 py-4 ">
     <h2 className="text-xl font-bold mb-2">{title}</h2>
     <p className="text-gray-600 text-base">{description}</p>
-    <div className=" w-[34%] mt-4 px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-md hover:animate-pulse">
+    <div className=" w-[50%] mt-4 px-4 py-2 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-md hover:animate-pulse md:w-[34%]">
     <Link href={link} >
     Saiba mais
     </Link>
