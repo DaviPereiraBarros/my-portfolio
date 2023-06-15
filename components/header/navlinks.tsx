@@ -1,5 +1,4 @@
 import React from 'react';
-import Styles from '../style/styles';
 
 export default function NavLink()
 {
