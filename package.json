@@ -21,6 +21,7 @@
     "eslint-plugin-react-hooks": "^4.6.0",
     "framer-motion": "^10.12.16",
     "next": "13.4.4",
+    "next-navigation": "^1.0.6",
     "pdfjs-dist": "^3.7.107",
     "postcss": "8.4.23",
     "prettier": "^2.8.8",

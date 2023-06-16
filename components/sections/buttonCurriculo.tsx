@@ -4,7 +4,7 @@ import {FaArrowRight} from 'react-icons/fa'
 export default function ButtonCurriculo()
 {
 
-    const downloadLink = 'public/assets/Currículo_DaviPereira.pdf';
+    const downloadLink = '/public/assets/CurrículoDaviPereira.pdf';
       
     return (
     <a className='w-2' href={downloadLink} download>
